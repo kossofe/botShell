@@ -67,10 +67,10 @@ async def run(message, matches, chat_id, step, crons=None):
 
 
 plugin = {
-    "name": "Help",
+    "name": "بوت",
     "desc": "Show Help of plugins",
-    "usage": ["`[!/#]help`", "`[!/#]help <plugin_file_name>`"],
+    "usage": ["`[!/#]بوت`", "`[!/#]بوت <plugin_file_name>`"],
     "run": run,
     "sudo": False,
-    "patterns": ["^[!/#]help (.*)$", "^[!/#]help$",],
+    "patterns": ["^[!/#]بوت (.*)$", "^[!/#]بوت$",],
 }
